@@ -1,0 +1,30 @@
+.table {
+    table-layout: fixed;
+}
+th, td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+th:hover, td:hover {
+    text-overflow: clip;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.active{
+    background-color: white;
+    color: black !important;
+}
+
+ul.navbar-nav.flex-sm-column{
+    width: 100%;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
